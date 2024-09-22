@@ -1,0 +1,23 @@
+.p-toast{
+    width: auto!important;
+}
+@media only screen and (max-width: 800px) {
+    .access{
+        display: none;
+    }
+}
+@media only screen and (max-width: 586px) {
+    .role{
+        display: none;
+    }
+    td{
+        font-size: 12px;
+    }
+    .profile{
+        width: 50px;
+        height: 50px;
+    }
+    .delete{
+        marker-start: 0!important;
+    }
+}
